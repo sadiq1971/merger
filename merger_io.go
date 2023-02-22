@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/sadiq1971/merger/metrics"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/dstore"
 	"github.com/streamingfast/logging"
-	"github.com/streamingfast/merger/metrics"
 	"go.uber.org/zap"
 )
 

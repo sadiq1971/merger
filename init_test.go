@@ -18,7 +18,7 @@ import (
 	"github.com/streamingfast/logging"
 )
 
-var testLogger, testTracer = logging.PackageLogger("merger", "github.com/streamingfast/merger_tests")
+var testLogger, testTracer = logging.PackageLogger("merger", "github.com/sadiq1971/merger_tests")
 
 func init() {
 	logging.InstantiateLoggers()

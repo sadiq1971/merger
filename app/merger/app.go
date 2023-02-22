@@ -17,14 +17,14 @@ package merger
 import (
 	"context"
 	"fmt"
+	"github.com/sadiq1971/merger/metrics"
 	"time"
 
+	"github.com/sadiq1971/merger"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/dgrpc"
 	"github.com/streamingfast/dmetrics"
 	"github.com/streamingfast/dstore"
-	"github.com/streamingfast/merger"
-	"github.com/streamingfast/merger/metrics"
 	"github.com/streamingfast/shutter"
 	"go.uber.org/zap"
 	pbhealth "google.golang.org/grpc/health/grpc_health_v1"

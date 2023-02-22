@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/sadiq1971/merger/metrics"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/bstream/forkable"
-	"github.com/streamingfast/merger/metrics"
 )
 
 var ErrStopBlockReached = errors.New("stop block reached")
