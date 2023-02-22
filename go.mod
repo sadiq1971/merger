@@ -1,4 +1,4 @@
-module github.com/streamingfast/merger
+module github.com/sadiq1971/merger
 
 go 1.18
 
