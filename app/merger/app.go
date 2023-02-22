@@ -80,7 +80,7 @@ func (a *App) Run() error {
 		}
 	}
 
-	bundleSize := uint64(100)
+	bundleSize := uint64(5)
 
 	// we are setting the backoff here for dstoreIO
 	io := merger.NewDStoreIO(
